@@ -10,22 +10,15 @@
         };
 }
 
-
-
-
 .features__title {
     padding-bottom: 10px;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    @include font(14, 1.14, 0.03);
     text-transform: uppercase;
 }
 
 .features__text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(14, 1.71, 0.03);
     color: var(--font-color);
 }
 

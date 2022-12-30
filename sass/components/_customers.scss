@@ -1,8 +1,6 @@
 .customers__title {
-    font-size: 36px;
-    line-height: calc(42/36);
+    @include font(36, calc(42/36), 0.03);
     text-align: center;
-    letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
 

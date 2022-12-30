@@ -4,8 +4,7 @@
     font-family: 'Raleway';
     font-weight: 700;
     @include font(26, 1.19, 0.03);
-    font-size: 26px;
-     color: var(--active-color-two);
+    color: var(--active-color-two);
 }
 
 a.header__nav--logo {
@@ -102,10 +101,18 @@ a.header__nav--logo {
 
 .header__icons--tel,
 .header__icon--mail {
+    
     fill: currentColor;
     margin-right: 10px;
 }
 
 .header__icons--tel {
     background-position: bottom;
+}
+.header__icon{
+    font-family: 'roboto', sans-serif;
+        font-weight: 500;
+        @include font(14, 1.14, 0.02);
+        line-height: 100%;
+        color: #757575;
 }

@@ -63,7 +63,7 @@
 .modal__input--group {
     font-family: "roboto", sans-serif;
     font-weight: 400;
-    @include font(12, 1.16, 0.01);
+    @include font( 12, 1.16, 0.01);
     color: var(--font-color);
     text-align: left;
 }
@@ -96,7 +96,7 @@
     &::placeholder {
             font-family: 'roboto', sans-serif;
             font-weight: 400;
-            @include font(14, 1.14, 0.01);
+            @include font(12 , 1.14, 0.01);
             color: rgba(117, 117, 117, 0.5);
             };
 }

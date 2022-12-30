@@ -68,7 +68,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  font-size: 26px;
   color: var(--active-color-two);
 }
 
@@ -174,6 +173,16 @@ a.header__nav--logo:hover, a.header__nav--logo:focus {
 
 .header__icons--tel {
   background-position: bottom;
+}
+
+.header__icon {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  line-height: 100%;
+  color: #757575;
 }
 
 .hero {
@@ -294,9 +303,11 @@ a.header__nav--logo:hover, a.header__nav--logo:focus {
   width: 370px;
   bottom: 0;
   padding-top: 27px;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: noneem;
+  letter-spacing: 0.03em;
   text-align: center;
   background: rgba(47, 48, 58, 0.8);
   color: var(--primary-color);
@@ -473,6 +484,7 @@ a.header__nav--logo:hover, a.header__nav--logo:focus {
 }
 
 .address__link {
+  font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -500,6 +512,7 @@ a.header__nav--logo:hover, a.header__nav--logo:focus {
 }
 
 .footer__soc--title {
+  font-family: "roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -699,7 +712,7 @@ a.header__nav--logo:hover, a.header__nav--logo:focus {
 .modal__text::placeholder {
   font-family: "roboto", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);

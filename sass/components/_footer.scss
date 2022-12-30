@@ -25,6 +25,7 @@
     font-style: normal;
 }
 .address__link {
+    font-family: 'roboto', sans-serif;
     font-weight: 400;
     @include font(14, 1.71, 0.03);
     color: var(--primary-color);
@@ -44,6 +45,7 @@
     margin-bottom: 12px;
 }
 .footer__soc--title {
+    font-family: 'roboto', sans-serif;
     font-weight: 700;
     @include font(14, 1.14, 0.03);
     line-height: 100%;
